@@ -8,10 +8,10 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Work from "./components/Work/Work";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Work from "./components/Work";
 
 
 const router = createBrowserRouter(
