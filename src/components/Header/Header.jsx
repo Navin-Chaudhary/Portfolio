@@ -1,7 +1,5 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Header.js";
-import themechanger from "./Header.js";
 export default function Header() {
   return (
     <>
