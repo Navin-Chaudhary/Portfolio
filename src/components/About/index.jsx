@@ -27,7 +27,7 @@ export default function About() {
                 🏫 LDRP Institute of Technology and Research
               </h2>
               <h2 class="text-md md:text-xl font-mono">📍 GANDHINAGAR</h2>
-              <h2 class="text-md md:text-xl font-mono">⏳ July 2020-Current</h2>
+              <h2 class="text-md md:text-xl font-mono">⏳ July 2023-Current</h2>
             </div>
           </div>
           <hr />

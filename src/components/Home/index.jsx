@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <main class=" z-10 min-h-[88vh] flex-row-reverse px-5 md:p-10 xl:px-40 flex-col-2 lg:flex pt-10">
-      <div class="relative md:w-full h-[70vw] sm:hidden lg:w-[400px] lg:ml-8 lg:mt-8 lg:h-[400px]  md:hidden lg:block flex justify-center w-full items-center bg-[#668cff] sm:bg-[#668cff] rounded md:rounded-full overflow-hidden object-cover">
+    <main class=" z-10 min-h-[88vh] flex-row-reverse px-5 md:p-10 xl:px-40 flex-col-2 lg:flex pt-10 pb-9">
+      <div class="relative md:w-full h-[70vw] sm:hidden  lg:w-[400px] lg:ml-8 lg:mt-8 lg:h-[400px]  md:hidden lg:block flex justify-center w-full items-center bg-[#668cff] sm:bg-[#668cff] rounded md:rounded-full overflow-hidden object-cover">
         <img alt="image" src="images/person3.png" class="object-cover"/>
       </div>
 
@@ -11,7 +11,7 @@ export default function Home() {
         <div class="mt-10  md:mt-0">
           <h2 class="text-[23px]">Hello I'm</h2>
           <h1 class="text-[40px] mt-[-7px] bg-gradient-to-r from-green-400 to-red-600 via-blue-500 text-transparent bg-clip-text font-bold">
-            NAVIN CHAUDHARY
+            NAVIN CHAUDHARY 
           </h1>
           <h2 class="text-[23px] font-bold">
             Frontend focused Full Stack Developer
