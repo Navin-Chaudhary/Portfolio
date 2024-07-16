@@ -96,7 +96,7 @@ export default function Header() {
                 </NavLink>
               </li>
               <li class="mb-3 border-b-[1px] md:mb-5">
-                <NavLink target="_blank" to="resume.pdf" className="p-1">
+                <NavLink target="_blank" to="Resume.pdf" className="p-1">
                   Resume
                   <span class="extrnl"> ↗</span>
                 </NavLink>
