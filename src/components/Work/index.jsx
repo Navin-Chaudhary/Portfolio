@@ -44,7 +44,7 @@ export default function About() {
                 <li>
                   <Link
                     target="_blank"
-                    to="https://n-weather-app.vercel.app/"
+                    to="https://n-weather-app.vercel.app"
                   > 
                  <h1 class="h-[40px]  lg:mt-[100px]  text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
                   </Link>
