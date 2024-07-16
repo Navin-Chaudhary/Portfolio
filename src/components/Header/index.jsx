@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import themechanger from '../../utils/theme';
+import themechanger from "../../utils/theme";
 export default function Header() {
   return (
     <>
@@ -31,7 +31,7 @@ export default function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink target="_blank" to="public/resume.pdf" className="p-1">
+              <NavLink target="_blank" to="public/Resume.pdf" className="p-1">
                 Resume
                 <span class="extrnl"> ↗</span>
               </NavLink>
@@ -58,24 +58,17 @@ export default function Header() {
               onClick={() => {
                 const icon = document.querySelector("#icon");
                 const mobilemenu = document.querySelector("#mobilemenu");
-                const display = "visible";
-                const display2= "none";
-
-                if (display == "visible") {
+                if (!mobilemenu.style.display ||mobilemenu.style.display == "flex" ) {
                   mobilemenu.style.display = "none";
-                  // icon.class = "fa-solid fa-x";
                   return true;
-                }
-                else if(mobilemenu.style.display =="none"){
-                  mobilemenu.style.display = "visible";
-                }
+                } else mobilemenu.style.display = "flex";
               }}
             ></i>
             <i class="fa-solid fa-x hidden"></i>
           </label>
 
           <div
-            class="lg:hidden absolute top-20 w-[50%] h-[50vh] right-0 flex justify-center flex-column items-center bg-white  text-center shadow-neutral-500 shadow-md opacity-1000 md:mr-2 menu1"
+            class="lg:hidden absolute top-20 w-[50%] h-[50vh] right-0 flex justify-center flex-column items-center bg-white text-center shadow-neutral-500 shadow-md opacity-1000 md:mr-2 menu1"
             id="mobilemenu"
           >
             <ul class=" font-mono  ul1">

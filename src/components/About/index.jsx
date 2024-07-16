@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div class="min-h-[90vh] grid mt-10 p-3 md:p-10 xl:px-40 flex-col-2 gap-8 lg:flex ">
         <div class="flex flex-col  gap-10">
-          <div class="flex  flex-col gap-3 text-lg text-justify">
+          <div class="flex  flex-col gap-3 text-lg text-justify ">
             <p class="capitalize tracking-widest font-light">
               <b>Hey everyone</b>👋! I'm Navin Chaudhary, a passionate and
               driven software engineer currently in my second year of college

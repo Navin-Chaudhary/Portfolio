@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Contact() {
   return (
     <>
-      <div class="min-h-[90vh] grid mt-10 p-3 md:p-10 xl:px-40 flex-col-2 gap-8 lg:flex items-center">
+      <div class="min-h-[80vh] grid mt-10 p-3 md:p-10 xl:px-40 flex-col-2 gap-8 lg:flex items-center">
         <div class="flex flex-col gap-20 items-center lg:flex-row h-full ">
           <div class="w-full lg:w-1/2 gap-5 xl:px-5">
             <h1 class=" text-2xl md:text-3xl font-mono">Get in Touch</h1>

@@ -24,12 +24,13 @@ export default function About() {
                 Weather App
               </Link>
               <p class="text-justify">
-                weather app is a website where you will find multiple tools on a
+                Weather app is a website where you will find multiple tools on a
                 single page, which includes week's forecast, Temperature,
                 Weather mode,uv, Wind, Pressure, Humidity, Sunset/sunrise time
                 and much more.
               </p>
-              <ul class="flex justify-evenly">
+              <div class="flex flex-row justify-evenly mt-11">
+              <ul>
                 <li>
                   <Link
                     target="_blank"
@@ -39,29 +40,47 @@ export default function About() {
                   </Link>
                 </li>
               </ul>
-            </div>
-            <div class="flex  flex-col gap-5  rounded-lg p-4  box_shadow ">
-              <Link class="text-2xl" to="/">
-                Git-User
-              </Link>
-              <p class="text-justify">
-                Gituser is a website that allows you to enter a username and get
-                all relevant information about a GitHub user or organization,
-                including their followers, following, and repositories. The
-                user-friendly interface and quick access to GitHub profiles make
-                it a valuable tool for developers and recruiters alike. Save
-                time and streamline your research with Gituser.
-              </p>
-              <ul class="flex justify-evenly">
+              <ul class="mt-2">
                 <li>
-                <Link
+                  <Link
                     target="_blank"
-                    to="https://github.com/Navin-Chaudhary/Weather-App"
-                  >
-                    <img src="images/skill-icons--github-dark.svg" alt="github" class="h-[50px] lg:mt-12"></img>
+                    to="https://weather-app-six-khaki-62.vercel.app/"
+                  > 
+                 <h1 class="h-[40px]  lg:mt-[100px]  text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
                   </Link>
                 </li>
               </ul>
+              </div>
+            </div>
+            <div class="flex  flex-col gap-5  rounded-lg p-4  box_shadow ">
+              <Link class="text-2xl" to="/">
+                Html Template
+              </Link>
+              <p class="text-justify">
+              Intensify is a clean and modern HTML template that showcases advanced CSS techniques such as Flexbox, viewports, opacities, and alignments. This template represents a landing page for a company, providing essential information for contacts and giving enough context about what the company does.
+              </p>
+              <div class="flex flex-row justify-evenly">
+              <ul>
+                <li>
+                  <Link
+                    target="_blank"
+                    to="https://github.com/Navin-Chaudhary/intensify"
+                  >
+                    <img src="images/skill-icons--github-dark.svg" alt="github" class="h-[50px] lg:mt-[100px]"></img>
+                  </Link>
+                </li>
+              </ul>
+              <ul class="mt-2">
+                <li>
+                  <Link
+                    target="_blank"
+                    to="https://intensify-beta.vercel.app/"
+                  > 
+                 <h1 class="h-[40px]  lg:mt-[100px]  text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
+                  </Link>
+                </li>
+              </ul>
+              </div>
             </div>
           </div>
         </div>
