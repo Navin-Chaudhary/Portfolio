@@ -70,6 +70,9 @@ export default function Header() {
           <div
             class="lg:hidden absolute top-20 w-[50%] h-[50vh] right-0 flex justify-center flex-column items-center bg-white text-center shadow-neutral-500 shadow-md opacity-1000 md:mr-2 menu1"
             id="mobilemenu"
+            style={{
+              display:"none"
+            }}
           >
             <ul class=" font-mono  ul1">
               <li class="mb-3 border-b-[1px] md:mb-5">
