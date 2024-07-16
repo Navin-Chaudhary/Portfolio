@@ -146,29 +146,36 @@ export default function Contact() {
             </div>
           </div>
           <div class="w-full lg:w-1/2 flex justify-center">
+          {/* class="flex   flex-col gap-5 mt-10 */}
             <div class=" box_shadow w-full p-10 rounded-md">
               <h1 class="text-center text-4xl font-mono ">Contact Me</h1>
-              <div class="flex   flex-col gap-5 mt-10">
+              <form class="flex flex-col gap-5 mt-10" action="https://submit-form.com/Uc5gI33Ok" >
                 <input
                   class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 mt-0 border-[#343333]"
                   placeholder="Name"
                   type="text"
+                  name="name"
+                  required
                 />
                 <input
                   class="flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 border-[#343333]"
                   placeholder="Email"
                   type="email"
+                  name="email"
+                  required
                 />
                 <textarea
                   class="flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 border-[#343333]"
                   placeholder="massage"
+                  name="text"
+                  required
                 ></textarea>
                 <div class="flex justify-end">
-                  <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#4c87e5] text-[#ffff] shadow hover:bg-[#0d66f6] h-9 px-4 py-2">
-                    <a href="contact">Submit</a>
+                  <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#4c87e5] text-[#ffff] shadow hover:bg-[#0d66f6] h-9 px-4 py-2" type="submit">
+                   Submit
                   </button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

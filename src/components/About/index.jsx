@@ -8,7 +8,7 @@ export default function About() {
           <div class="flex  flex-col gap-3 text-lg text-justify">
             <p class="capitalize tracking-widest font-light">
               <b>Hey everyone</b>👋! I'm Navin Chaudhary, a passionate and
-              driven software engineer currently in my third year of college
+              driven software engineer currently in my second year of college
               pursuing a Bachelor's degree in Computer engineering. With a keen
               interest in technology and a dedication to learning and growth, I
               strive to make meaningful contributions in the field of software

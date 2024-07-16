@@ -24,25 +24,29 @@
 .dark-theme{
   --background-color:rgb(2 6 23) ;
   --text-color:rgb(229 231 235 );
-  .toggle-btn{
-    background-color: #ece6e6;
-  }
-  nav .menu {
-    background-color: #2d2c2c;
-    color: #4d4a4a;
-  }
-  .menu1{
-    background-color: rgb(2 6 23);
-    color: rgb(229 231 235 );
-    transition: 1s;
-  }
+ 
  
 }
+
+.dark-theme  .toggle-btn{
+  background-color: #ece6e6;
+}
+.dark-theme nav .menu {
+  background-color: #2d2c2c;
+  color: #4d4a4a;
+}
+.dark-theme .menu1{
+  background-color: rgb(2 6 23);
+  color: rgb(229 231 235 );
+  transition: 1s;
+}
+
 body{
   background: var(--background-color);
   color: var(--text-color);
   transition:background-color 0.8s , color 0.8s ;
 }
+
 .toggle-btn{
   border:1px solid rgb(103, 99, 99);
    
