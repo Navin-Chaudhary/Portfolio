@@ -100,21 +100,22 @@ export default function About() {
             </div>
             <div class="flex  flex-col gap-5  rounded-lg p-4  box_shadow ">
               <Link class="text-2xl" to="/">
-                Html Template
+                Html Template 
               </Link>
               <p class="text-justify">
-                Intensify is a clean and modern HTML template that showcases
-                advanced CSS techniques such as Flexbox, viewports, opacities,
-                and alignments. This template represents a landing page for a
-                company, providing essential information for contacts and giving
-                enough context about what the company does.
+                Ldrp is a clean and modern HTML template that showcases advanced
+                CSS techniques such as flexbox, viewports, opacity and
+                alignment. This template represents the landing page for
+                Collage, provides essential information for contacts and gives
+                enough context about what Collage does and this template
+                showcases my skills in HTML, CSS.
               </p>
               <div class="flex flex-row justify-evenly">
                 <ul>
                   <li>
                     <Link
                       target="_blank"
-                      to="https://github.com/Navin-Chaudhary/intensify"
+                      to="https://github.com/Navin-Chaudhary/Ldrp--website"
                     >
                       <img
                         src="images/skill-icons--github-dark.svg"
@@ -128,7 +129,7 @@ export default function About() {
                   <li>
                     <Link
                       target="_blank"
-                      to="https://intensify-beta.vercel.app/"
+                      to="https://ldrp-website.vercel.app/"
                     >
                       <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
                         Live ↗
