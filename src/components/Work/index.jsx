@@ -30,59 +30,72 @@ export default function About() {
                 and much more.
               </p>
               <div class="flex flex-row justify-evenly mt-11">
-              <ul>
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://github.com/Navin-Chaudhary/Weather_App"
-                  >
-                    <img src="images/skill-icons--github-dark.svg" alt="github" class="h-[50px] "></img>
-                  </Link>
-                </li>
-              </ul>
-              <ul class="mt-2">
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://weatherapp-navin-projects.vercel.app/"
-                  > 
-                 <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
-                  </Link>
-                </li>
-              </ul>
+                <ul>
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://github.com/Navin-Chaudhary/Weather_App"
+                    >
+                      <img
+                        src="images/skill-icons--github-dark.svg"
+                        alt="github"
+                        class="h-[50px] "
+                      ></img>
+                    </Link>
+                  </li>
+                </ul>
+                <ul class="mt-2">
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://weatherapp-navin-projects.vercel.app/"
+                    >
+                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
+                        Live ↗
+                      </h1>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="flex  flex-col gap-5   rounded-lg p-4  box_shadow ">
               <Link class="text-2xl" to="/">
-               To-do List
+                To-do List
               </Link>
               <p class="text-justify">
-                Weather app is a website where you will find multiple tools on a
-                single page, which includes week's forecast, Temperature,
-                Weather mode,uv, Wind, Pressure, Humidity, Sunset/sunrise time
-                and much more.
+                These projects highlight my ability to create dynamic and
+                responsive user interfaces, manage state efficiently and
+                implement create, read, delete operations. Each app is designed
+                with user experience in mind, .This app showcases my skills in
+                HTML, CSS and JavaScript
               </p>
               <div class="flex flex-row justify-evenly mt-11">
-              <ul>
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://github.com/Navin-Chaudhary/Todo-List"
-                  >
-                    <img src="images/skill-icons--github-dark.svg" alt="github" class="h-[50px] "></img>
-                  </Link>
-                </li>
-              </ul>
-              <ul class="mt-2">
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://todo-list-gamma-wheat.vercel.app/"
-                  > 
-                 <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
-                  </Link>
-                </li>
-              </ul>
+                <ul>
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://github.com/Navin-Chaudhary/Todo-List"
+                    >
+                      <img
+                        src="images/skill-icons--github-dark.svg"
+                        alt="github"
+                        class="h-[50px] "
+                      ></img>
+                    </Link>
+                  </li>
+                </ul>
+                <ul class="mt-2">
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://todo-list-gamma-wheat.vercel.app/"
+                    >
+                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
+                        Live ↗
+                      </h1>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="flex  flex-col gap-5  rounded-lg p-4  box_shadow ">
@@ -90,29 +103,39 @@ export default function About() {
                 Html Template
               </Link>
               <p class="text-justify">
-              Intensify is a clean and modern HTML template that showcases advanced CSS techniques such as Flexbox, viewports, opacities, and alignments. This template represents a landing page for a company, providing essential information for contacts and giving enough context about what the company does.
+                Intensify is a clean and modern HTML template that showcases
+                advanced CSS techniques such as Flexbox, viewports, opacities,
+                and alignments. This template represents a landing page for a
+                company, providing essential information for contacts and giving
+                enough context about what the company does.
               </p>
               <div class="flex flex-row justify-evenly">
-              <ul>
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://github.com/Navin-Chaudhary/intensify"
-                  >
-                    <img src="images/skill-icons--github-dark.svg" alt="github" class="h-[50px] "></img>
-                  </Link>
-                </li>
-              </ul>
-              <ul class="mt-2">
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://intensify-beta.vercel.app/"
-                  > 
-                 <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
-                  </Link>
-                </li>
-              </ul>
+                <ul>
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://github.com/Navin-Chaudhary/intensify"
+                    >
+                      <img
+                        src="images/skill-icons--github-dark.svg"
+                        alt="github"
+                        class="h-[50px] "
+                      ></img>
+                    </Link>
+                  </li>
+                </ul>
+                <ul class="mt-2">
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://intensify-beta.vercel.app/"
+                    >
+                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
+                        Live ↗
+                      </h1>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="flex  flex-col gap-5   rounded-lg p-4  box_shadow ">
@@ -126,26 +149,29 @@ export default function About() {
                 and much more.
               </p>
               <div class="flex flex-row justify-evenly mt-11">
-              <ul>
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://github.com/Navin-Chaudhary/Weather-App"
-                  >
-                    <img src="images/skill-icons--github-dark.svg" alt="github" class="h-[50px] "></img>
-                  </Link>
-                </li>
-              </ul>
-              <ul class="mt-2">
-                <li>
-                  <Link
-                    target="_blank"
-                    to="https://n-weather-app.vercel.app"
-                  > 
-                 <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">Live ↗</h1>
-                  </Link>
-                </li>
-              </ul>
+                <ul>
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://github.com/Navin-Chaudhary/Weather-App"
+                    >
+                      <img
+                        src="images/skill-icons--github-dark.svg"
+                        alt="github"
+                        class="h-[50px] "
+                      ></img>
+                    </Link>
+                  </li>
+                </ul>
+                <ul class="mt-2">
+                  <li>
+                    <Link target="_blank" to="https://n-weather-app.vercel.app">
+                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
+                        Live ↗
+                      </h1>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
