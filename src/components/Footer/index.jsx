@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Footer.css'
 export default function Footer() {
   return (
     <>
@@ -8,8 +9,8 @@ export default function Footer() {
           <Link class="font-bold text-2xl font-serif" to="/">
             NAVIN.
           </Link>
-          <ul class="flex gap-3 md:gap-4">
-            <li>
+          <ul class="flex gap-3 md:gap-4 ">
+            <li id="li1">
               <Link to="https://www.linkedin.com/in/navin-chaudhary09/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +35,7 @@ export default function Footer() {
                 </svg>
               </Link>
             </li>
-            <li>
+            <li id="li2">
               <Link to="https://github.com/Navin-Chaudhary">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ export default function Footer() {
                 </svg>
               </Link>
             </li>
-            <li>
+            <li id="li3">
               <Link to="https://twitter.com/NavinChaud24674">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +73,7 @@ export default function Footer() {
                 </svg>
               </Link>
             </li>
-            <li>
+            <li id="li4">
               <Link to="https://www.instagram.com/navin_chaudhary_05/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

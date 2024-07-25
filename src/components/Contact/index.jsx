@@ -15,7 +15,7 @@ export default function Contact() {
             </p>
             <div class=" mt-5 md:mt-10">
               <ul class="flex gap-3 md:gap-4">
-                <li>
+                <li id="li1">
                   <Link to="https://www.linkedin.com/in/navin-chaudhary09/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function Contact() {
                     </svg>
                   </Link>
                 </li>
-                <li>
+                <li id="li2">
                   <Link to="https://github.com/Navin-Chaudhary">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ export default function Contact() {
                     </svg>
                   </Link>
                 </li>
-                <li>
+                <li id="li3">
                   <Link to="https://twitter.com/NavinChaud24674">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ export default function Contact() {
                     </svg>
                   </Link>
                 </li>
-                <li>
+                <li id="li4">
                   <Link to="https://www.instagram.com/navin_chaudhary_05/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

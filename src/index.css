@@ -45,6 +45,7 @@ body{
   background: var(--background-color);
   color: var(--text-color);
   transition:background-color 0.8s , color 0.8s ;
+
 }
 
 .toggle-btn{
