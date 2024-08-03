@@ -21,15 +21,94 @@ export default function About() {
           <div class="grid lg:grid-cols-2 gap-10">
             <div class="flex  flex-col gap-5   rounded-lg p-4  box_shadow ">
               <Link class="text-2xl" to="/">
+                News
+              </Link>
+              <p class="text-justify">
+                News is a React app where you will find news highlights. This
+                data is provided by the NYT API and you can sort news by
+                category and you can also search for articles.
+              </p>
+              <div class="flex flex-row justify-evenly mt-11 relative lg:top-12">
+                <ul>
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://github.com/Navin-Chaudhary/News"
+                    >
+                      <img
+                        src="images/skill-icons--github-dark.svg"
+                        alt="github"
+                        class="h-[50px] "
+                      ></img>
+                    </Link>
+                  </li>
+                </ul>
+                <ul class="mt-2">
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://news-theta-puce.vercel.app/"
+                    >
+                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
+                        Visit ↗
+                      </h1>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex  flex-col gap-5   rounded-lg p-4  box_shadow ">
+              <Link class="text-2xl" to="/">
+                Gituser
+              </Link>
+              <p class="text-justify">
+                Gituser is a website that allows you to enter a username and get
+                all relevant information about a GitHub user or organization,
+                including their followers, following, and repositories. The
+                user-friendly interface and quick access to GitHub profiles make
+                it a valuable tool for developers and recruiters alike. Save
+                time and streamline your research with Gituser.
+              </p>
+              <div class="flex flex-row justify-evenly mt-11">
+                <ul>
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://github.com/Navin-Chaudhary/GitUser"
+                    >
+                      <img
+                        src="images/skill-icons--github-dark.svg"
+                        alt="github"
+                        class="h-[50px] "
+                      ></img>
+                    </Link>
+                  </li>
+                </ul>
+                <ul class="mt-2">
+                  <li>
+                    <Link
+                      target="_blank"
+                      to="https://git-user-liart.vercel.app/"
+                    >
+                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
+                        Live ↗
+                      </h1>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex  flex-col gap-5  rounded-lg p-4  box_shadow ">
+              <Link class="text-2xl" to="/">
                 Weather App
               </Link>
               <p class="text-justify">
-                Weather app is a website where you will find multiple tools on a
+                weather app is a website where you will find multiple tools on a
                 single page, which includes week's forecast, Temperature,
                 Weather mode,uv, Wind, Pressure, Humidity, Sunset/sunrise time
-                and much more.
+                and much more
               </p>
-              <div class="flex flex-row justify-evenly mt-11">
+              <div class="flex flex-row justify-evenly relative lg:top-16">
                 <ul>
                   <li>
                     <Link
@@ -98,9 +177,9 @@ export default function About() {
                 </ul>
               </div>
             </div>
-            <div class="flex  flex-col gap-5  rounded-lg p-4  box_shadow ">
+            <div class="flex  flex-col gap-5   rounded-lg p-4  box_shadow ">
               <Link class="text-2xl" to="/">
-                Html Template 
+                Html Template
               </Link>
               <p class="text-justify">
                 Ldrp is a clean and modern HTML template that showcases advanced
@@ -110,7 +189,7 @@ export default function About() {
                 enough context about what Collage does and this template
                 showcases my skills in HTML, CSS.
               </p>
-              <div class="flex flex-row justify-evenly">
+              <div class="flex flex-row justify-evenly mt-11">
                 <ul>
                   <li>
                     <Link
@@ -131,42 +210,6 @@ export default function About() {
                       target="_blank"
                       to="https://ldrp-website.vercel.app/"
                     >
-                      <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
-                        Live ↗
-                      </h1>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex  flex-col gap-5   rounded-lg p-4  box_shadow ">
-              <Link class="text-2xl" to="/">
-                Weather App
-              </Link>
-              <p class="text-justify">
-                Weather app is a website where you will find multiple tools on a
-                single page, which includes week's forecast, Temperature,
-                Weather mode,uv, Wind, Pressure, Humidity, Sunset/sunrise time
-                and much more.
-              </p>
-              <div class="flex flex-row justify-evenly mt-11">
-                <ul>
-                  <li>
-                    <Link
-                      target="_blank"
-                      to="https://github.com/Navin-Chaudhary/Weather-App"
-                    >
-                      <img
-                        src="images/skill-icons--github-dark.svg"
-                        alt="github"
-                        class="h-[50px] "
-                      ></img>
-                    </Link>
-                  </li>
-                </ul>
-                <ul class="mt-2">
-                  <li>
-                    <Link target="_blank" to="https://n-weather-app.vercel.app">
                       <h1 class="h-[40px]    text-white text-[20px] p-1 pl-2 bg-slate-700 rounded-lg">
                         Live ↗
                       </h1>
